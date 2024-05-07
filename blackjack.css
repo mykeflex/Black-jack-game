@@ -1,0 +1,35 @@
+body{
+    background-image: url(/download.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    text-align: center;
+    font-weight: bold; 
+    color: white; 
+    margin-top: 250px;
+}
+h1 {
+    color: goldenrod;
+}
+#message-el {
+    font-style: italic;
+}
+button {
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    cursor: pointer;
+    font-weight: bolder;
+    padding:7px 2px;
+    border: none;
+    border-radius: 2px;
+    margin: 4px auto;
+    display: block;
+}
+button:active{
+    transform: scale(0.9);
+}
+button:hover {
+    background-color: rgb(236, 203, 142);
+}
